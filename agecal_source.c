@@ -11,7 +11,6 @@ int check_valid(int date,int mon,int year)
 		{
 			if(date>31)
 			{
-				printf("1");
 				printf("Your date and month is mismatched\n");
 				flag=0;
 				return 0;
@@ -21,7 +20,6 @@ int check_valid(int date,int mon,int year)
 		{
 			if(date>29)
 			{
-				printf("2 ");
 				printf("Your date and month is mismatched\n");
 				flag=0;
 				return 0;
@@ -31,7 +29,6 @@ int check_valid(int date,int mon,int year)
 		{
 			if(date>30)
 			{
-				printf("3 ");
 				printf("Your date and month is mismatched\n");
 				flag=0;
 				return 0;
